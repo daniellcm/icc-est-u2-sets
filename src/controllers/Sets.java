@@ -65,8 +65,6 @@ public class Sets {
         return palabras;
     }
 
-    //Mismo metodo TreeSetConComparador pero inverso
-
     public Set<String> construirTreeSetConComparadorInverso() {
 
         Comparator<String> comparador = new Comparator<String>() {
