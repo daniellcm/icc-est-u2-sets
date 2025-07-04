@@ -1,6 +1,7 @@
 import java.util.Set;
 
 import controllers.ContactoController;
+import controllers.Ejercicios;
 import controllers.Sets;
 
 public class App {
@@ -13,7 +14,9 @@ public class App {
         // runTreeSetConComparador(sets);
         // runTreeSetConComparadorInverso(sets);
 
-        ContactoController contactos = new ContactoController();
+        // ContactoController contactos = new ContactoController();
+        Ejercicios ejercicios = new Ejercicios();
+        
 
     }
 
@@ -56,4 +59,6 @@ public class App {
             System.out.println(palabra);
         }
     }
+
+    
 }
